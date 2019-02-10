@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>INFO3180 Lab 2</title>
+    <link rel="stylesheet" type="text/css" href="profile.css"/>
+</head>
+<body>
+<div class="card">
+    <div class="card-body">
+        <div class="upper-info">
+            <img class="avatar" src="{{url_for('static', filename='man.png')}}" />
+            <h1>Conrod Smith</h1>
+            <p>@Mantis</p>
+            <p>Kingston, Jamaica</p>
+            <p>{{formatted_date}}</p>
+        </div>
+        <div class="bio-info">
+            <p>I am a gamer and programmer through and through.
+            Contact me if you'd like to work together on a new project</p>
+        </div>
+        <div class="row">
+            <div id="row-info">
+                <ul> <strong>9</strong></ul>
+                <ul id="row-title">Post</ul>
+            </div>
+            <div id="row-info">
+                <ul><strong>212</strong></ul>
+                <ul id="row-title">Following</ul>
+            </div>
+            <div id="row-info">
+                <ul><strong>345</strong></ul>
+                <ul id="row-title">Followers</ul>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary">Follow</button>
+    <div class="card-body">
+</div>
+    
+</body>
+{% endblock %}

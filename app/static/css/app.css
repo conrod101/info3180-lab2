@@ -1,3 +1,43 @@
 body {
     padding-top: 5rem;
 }
+
+.card {
+    width: 500px;
+    text-align: center;
+    background: linear-gradient(180deg, #6cac76 54%, white 50%);
+    font-weight: 500;
+    left: 30%;
+}
+
+.upper-info {
+    color: white;
+}
+
+.avatar {
+    width: 40%;
+}
+
+.bio-info {
+    text-align: left;
+    margin-top: 30px;
+}
+
+
+#row-info {
+    display: inline;
+}
+
+.row {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 30px;
+}
+
+.bio-info, #row-title {
+    color: grey;
+}
+
+button {
+    margin-top: 30px;
+}
